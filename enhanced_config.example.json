@@ -1,0 +1,87 @@
+{
+  "credentials": {
+    "email": "your-email@example.com",
+    "password": "your-naukri-password"
+  },
+  "gemini_api_key": "",
+  "personal_info": {
+    "firstname": "Your",
+    "lastname": "Name",
+    "phone": "0000000000",
+    "current_ctc": "0",
+    "expected_ctc": "0",
+    "notice_period": "0 days",
+    "chatbot_answers": {
+      "Employment Type": "Full-time",
+      "Notice period": "0 days",
+      "Current Location": "Your City",
+      "Preferred Location": "Your City"
+    }
+  },
+  "user_profile": {
+    "name": "Your Name",
+    "experience_years": 0,
+    "current_role": "Your Current Role",
+    "core_skills": [
+      "Skill A",
+      "Skill B"
+    ],
+    "learning_skills": [
+      "Skill C"
+    ],
+    "preferred_roles": [
+      "Data Engineer"
+    ],
+    "location_preference": [
+      "Your City",
+      "Remote"
+    ],
+    "resume_text": "PASTE_YOUR_RESUME_TEXT_HERE",
+    "target_company_types": [
+      "Product",
+      "Startup"
+    ],
+    "avoid_companies": []
+  },
+  "job_search": {
+    "keywords": [
+      "Data Engineer",
+      "ETL Developer"
+    ],
+    "location": "your-city",
+    "max_applications_per_session": 0,
+    "min_job_score": 60,
+    "pages_per_keyword": 2
+  },
+  "webdriver": {
+    "edge_driver_path": "",
+    "implicit_wait": 15,
+    "page_load_timeout": 45,
+    "headless": false
+  },
+  "bot_behavior": {
+    "min_delay": 3,
+    "max_delay": 7,
+    "typing_delay": 0.15,
+    "scroll_pause": 3,
+    "smart_delays": true,
+    "random_scrolling": true
+  },
+  "gemini_settings": {
+    "model": "gemini-2.5-flash",
+    "temperature": 0.1,
+    "max_tokens": 1000,
+    "rate_limit_delay": 15
+  },
+  "ai_settings": {
+    "enable_ai_analysis": true,
+    "fallback_to_keywords": true,
+    "cache_results": true,
+    "max_retries": 2
+  },
+  "application_settings": {
+    "skip_already_applied": true,
+    "save_detailed_logs": true,
+    "create_session_reports": true
+  }
+}

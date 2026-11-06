@@ -1,0 +1,72 @@
+{
+  "credentials": {
+    "email": "your-email@example.com",
+    "password": "your-naukri-password"
+  },
+  "personal_info": {
+    "firstname": "Your",
+    "lastname": "Name",
+    "full_name": "Your Name",
+    "phone": "0000000000",
+    "current_location": "Your City",
+    "date_of_birth": "DD/MM/YYYY",
+    "current_ctc": "0",
+    "current_ctc_lpa": 0,
+    "expected_ctc": "0",
+    "expected_ctc_lpa": 0,
+    "notice_period": "30 days",
+    "notice_days": 30,
+    "serving_notice": false,
+    "total_experience": "0 years"
+  },
+  "candidate_profile": {
+    "name": "Your Name",
+    "target_roles": [
+      "Data Engineer"
+    ],
+    "experience_domain": "Your domain",
+    "key_skills": [
+      "Skill A",
+      "Skill B"
+    ],
+    "preferred_location": "Your City",
+    "employment_history": "Employer A (start - end); Employer B (start - end)",
+    "work_authorization": "Describe your work authorization",
+    "relocation": true,
+    "has_job_offer": false
+  },
+  "resume": {
+    "text_file": "",
+    "upload_file": ""
+  },
+  "knowledge_module": "",
+  "job_search": {
+    "keywords": [
+      "Data Engineer",
+      "ETL Developer"
+    ],
+    "location": "your-city",
+    "max_applications_per_session": 0,
+    "pages_per_keyword": 4,
+    "preferred_companies": [],
+    "avoid_companies": []
+  },
+  "webdriver": {
+    "implicit_wait": 15,
+    "page_load_timeout": 45,
+    "headless": false
+  },
+  "bot_behavior": {
+    "min_delay": 3,
+    "max_delay": 7,
+    "typing_delay": 0.1,
+    "scroll_pause": 2
+  },
+  "chatbot_answers": {
+    "experience": "0",
+    "notice_period": "30",
+    "current_ctc": "0",
+    "expected_ctc": "0",
+    "default_answer": "Yes"
+  }
+}

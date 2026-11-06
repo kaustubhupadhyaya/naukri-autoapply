@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+tempCodeRunnerFile.py
+
+# Local configuration and secrets (only *.example.json is committed)
+config.json
+config.local.json
+enhanced_config.json
+config.local.json.bak
+.github/test_config.json
+.env
+.env.*
+*.secret
+
+# Browser profiles, sessions and login evidence
+profiles/
+sessions/
+browser_profile/
+login_evidence/
+.ua/
+*.lock
+
+# Runtime state and output
+logs/
+state/
+watch_runs/
+brag-output/
+*.db
+*.db.bak-*
+*.log
+*.log.*
+*.jsonl
+selector_cache.json
+naukri_cycle_state.json
+naukri_heartbeat.txt
+naukri_keepalive.state.json
+naukri_watchdog.state.json
+naukri_session_*.json
+/NAUKRI_DAILY_LIMIT_*
+/NAUKRI_LOGIN_REQUIRED_*
+/NAUKRI_RELAUNCH_HALTED_*
+/NAUKRI_HEARTBEAT_ON
+/NAUKRI_DRIVER_UNAVAILABLE*
+
+# Debug artifacts
+debug_*.png
+debug_screenshots/
+debug_submit_*.html
+tools/debug_submit_triage.csv
+
+# Resume and answer data
+all resumes/
+resume.pdf
+resume*.pdf
+resume*.docx
+qa_dictionary.json
+chatbot_questions.csv
+
+# Editor / tooling
+.vscode/
+.idea/
+.claude/

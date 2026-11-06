@@ -1,0 +1,16 @@
+# Naukri Auto-Apply Bot — dependencies
+# Core runtime:
+selenium==4.15.0
+webdriver-manager==4.0.1        # optional: auto-downloads msedgedriver
+google-generativeai==0.3.2      # optional: chatbot answers + job scoring (naukri_bot/scoring)
+# Used by helper / analysis scripts:
+pandas==2.1.4
+numpy==1.24.3
+beautifulsoup4==4.12.2
+lxml==4.9.3
+requests==2.31.0
+python-dotenv==1.0.0
+colorama==0.4.6
+# Optional extras (uncomment to install)
+# openpyxl==3.1.2
+# psutil==5.9.6
